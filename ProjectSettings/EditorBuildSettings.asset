@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/fortunewheelspinner.unity
+    guid: 85d6bb0624c624891b3021b025356142
   m_configObjects: {}
