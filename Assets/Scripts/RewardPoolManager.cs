@@ -28,18 +28,19 @@ public class RewardPoolManager : MonoBehaviour
         if (Rewards.ContainsKey(reward))
         {
             Rewards[reward]++;
+            fortuneWheel.round++;
         }
         else
         {
             if (fortuneWheel.round % 5 != 0)
             {
-                Rewards.Add(reward,1*(fortuneWheel.round-1) % 5);
+                Rewards.Add(reward,1*(fortuneWheel.round) % 5);
             }
             else
             {
                 Rewards.Add(reward, 5);
             }
-            
+            fortuneWheel.round++;
             
         }
 

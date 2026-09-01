@@ -117,7 +117,7 @@ public class FortuneWheel : MonoBehaviour
     {
 
         RewardPanel.SetActive(true);
-        round++;
+        
 
 
 
